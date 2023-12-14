@@ -29,3 +29,51 @@
     width: 30px;
     margin-left: 10px;
 }
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;  
+    border-radius: 30px;
+    padding-left: 20px;  
+    margin-bottom: 25px;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 14px;
+    background: transparent;
+    width: 100%;
+}
+button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 16px 50px;
+    font-size: 16px;
+    background: radial-gradient(circle, #f27979, #ffcfcf);
+    color: #fff;
+    border-radius: 40px;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background-image: url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 12px;
+    left: 8px;
+}
