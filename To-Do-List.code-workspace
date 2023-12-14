@@ -1,12 +1,7 @@
 {
 	"folders": [
 		{
-			"name": "To-Do-List",
 			"path": "."
-		},
-		{
-			"name": "images",
-			"path": "../../../Desktop/images"
 		}
 	],
 	"settings": {}
